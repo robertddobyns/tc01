@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Button, Drawer, styled } from "@mui/material";
 
 import "./mobile-footer.css";
-import DrawerContent from "./DrawerContent";
+import DrawerContent from "../main-footer/DrawerContent";
 
 export default function MobileFooter() {
 
@@ -26,7 +26,7 @@ const DrawerButton = styled(Button)((props) => ({
         fontSize: '1.5em',
         color: 'white'
     },
-    [props.theme.breakpoints.up('sm')]: {
+    [props.theme.breakpoints.up('md')]: {
         display: 'none'
     },
 

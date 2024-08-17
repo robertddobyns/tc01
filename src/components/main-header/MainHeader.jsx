@@ -1,27 +1,17 @@
 import { styled } from '@mui/material'
 import logo from '../../assets/TextLogo.svg'
+import DesktopContact from './DesktopContact'
+import './main-header.css'
 
 export default function MainHeader() {
   return (
-    <Header>
+    <header className='header'>
         <Logo src={logo} alt="Tin Can logo" />
-    </Header>
+        <DesktopContact />
+    </header>
   )
 }
 
-
-const Header = styled('header')(props =>({
-    width: '100%',
-    display: 'flex',
-    alignItems: 'center',
-    justifyContent: 'center',
-    [props.theme.breakpoints.up('sm')]: {
-        // backgroundColor: 'yellow'
-    },
-    [props.theme.breakpoints.up('md')]: {
-        // backgroundColor: 'lightblue'
-    },
-}))
 const Logo = styled('img')(props => ({
     [props.theme.breakpoints.up('xs')]: {
         width: '80vw',

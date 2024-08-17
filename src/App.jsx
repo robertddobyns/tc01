@@ -1,8 +1,9 @@
 import "./App.css";
 import Description from "./components/description/Description";
 
+
 import MainHeader from "./components/main-header/MainHeader";
-import MobileFooter from "./components/main-header/MobileFooter";
+import MobileFooter from "./components/main-footer/MobileFooter";
 
 function App() {
   return (

@@ -31,7 +31,7 @@ const Section = styled('section')(props => ({
     marginTop: '0px'
   },
   [props.theme.breakpoints.up('md')]: {
-    marginTop: '75px'
+    marginTop: '0px'
   },
 }))
 
