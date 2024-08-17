@@ -28,7 +28,7 @@ export default function Package() {
             <li>Ice</li>
             <li>Personalized Bar Menu</li>
         </ul>
-        <h5>* Temporary Liquor License with 60 days notice will be an addtional $250</h5>
+        <div className='notice'>* Temporary Liquor License with 60 days notice will be an addtional $250</div>
     </PackageDiv>
   )
 }
