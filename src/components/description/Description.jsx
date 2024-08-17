@@ -26,13 +26,19 @@ const Section = styled('section')(props => ({
   width: '100vw',
   display: 'flex',
   flexDirection: 'column',
-  alignItems: 'center'
+  alignItems: 'center',
+  [props.theme.breakpoints.up('xs')]: {
+    marginTop: '0px'
+  },
+  [props.theme.breakpoints.up('md')]: {
+    marginTop: '75px'
+  },
 }))
 
 const DividingLine = styled('img')(props => ({
   [props.theme.breakpoints.up('xs')]: {
     width: '95vw',
-    margin: '30px'
+    margin: '20px'
   },
   [props.theme.breakpoints.up('xs')]: {
     width: '80vw',
