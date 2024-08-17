@@ -1,6 +1,8 @@
 import { styled } from "@mui/material";
 import React from "react";
 
+import Package from "../packages/Package";
+
 import Image1 from "../../../assets/photos/demo1.jpg";
 import Image2 from "../../../assets/photos/demo2.jpg";
 import Image3 from "../../../assets/photos/demo3.jpg";
@@ -17,7 +19,9 @@ export default function PackageContainer() {
         <Image src={Image4} alt="image 4" />
         <Image src={Image5} alt="image 5" />
       </Column1>
-      <PackageColumn>Packages</PackageColumn>
+      <PackageColumn>
+        <Package />
+      </PackageColumn>
       <Column3>
         <Image src={Image5} alt="image 5" />
         <Image src={Image4} alt="image 4" />
