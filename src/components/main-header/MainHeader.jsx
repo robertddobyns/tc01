@@ -20,13 +20,13 @@ const Header = styled('header')(props =>({
 }))
 const Logo = styled('img')(props => ({
     [props.theme.breakpoints.up('xs')]: {
-        height: '100px',
+        height: '200px',
     },
     [props.theme.breakpoints.up('sm')]: {
-        height: '200px',
+        height: '300px',
     },
     [props.theme.breakpoints.up('md')]: {
         marginTop: '20px',
-        height: '300px',
+        height: '400px',
     },
 }))

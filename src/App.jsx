@@ -7,7 +7,7 @@ function App() {
   return (
     <>
     <MainHeader />
-      The Tin Can Co. coming soon!
+      <span style={{display: 'flex', justifyContent: 'center', alignItems: 'center', height: '300px'}}>The Tin Can Co. coming soon!</span>
     </>
   )
 }
