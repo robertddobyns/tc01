@@ -10,7 +10,7 @@ export default function Package() {
         <h4>Packages Include:</h4>
         <ul>
             <li>Full Supply Consultation prior to event</li>
-            <li>Strickly Pour Service</li>
+            <li>Strictly Pour Service</li>
             <li>Client-Provided alcohol at no cost to guest</li>
             <li>Up to 8 hours of professional, fun bartending</li>
             <li>Water Station</li>
