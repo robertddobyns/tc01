@@ -6,7 +6,7 @@ export default function DesktopContact() {
     <DivStyled className="contact">
        <span>Sabrina Hughes: <a href="tel:402-238-8150">(402)238-8150</a></span>
        <span>Nichoel Stuhr: <a href="tel:402-312-0526">(402)312-0526</a></span>
-       <span>Email: <a href="mailto:cheers@thetincania.com">cheers@thetincania.com</a></span>
+       <span>Email: <a href="mailto:cheers@thetincania.com">Cheers@TheTinCanIA.com</a></span>
     </DivStyled>
   )
 }
