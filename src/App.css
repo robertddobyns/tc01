@@ -1,7 +1,4 @@
-:root {
-  --primary: #edf6f9;
-  --secondary: #ffddd2;
-  --error: #e29578;
-  --success: #83c5be;
-  --darkBlue: #006d77;
+.main {
+  position: relative;
+  min-height: 100vh;
 }

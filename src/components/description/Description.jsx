@@ -7,7 +7,7 @@ export default function Description() {
     <Section>
       <DividingLine src={line} alt="horizontal line" />
       <Title>The Midwest&rsquo;s Premier Mobile Bar</Title>
-      <div className={'subText'}>We specialize in making your event special</div>
+      <div className={'subText'}>Full Service Bartending For Any Occassion</div>
       <DividingLine src={line} alt="horizontal line" />
     </Section>
   );
@@ -40,8 +40,8 @@ const DividingLine = styled('img')(props => ({
     width: '95vw',
     margin: '20px'
   },
-  [props.theme.breakpoints.up('xs')]: {
-    width: '80vw',
+  [props.theme.breakpoints.up('sm')]: {
+    width: '60vw',
     margin: '30px'
   },
 }))

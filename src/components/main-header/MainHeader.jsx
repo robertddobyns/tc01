@@ -4,7 +4,7 @@ import logo from '../../assets/TextLogo.svg'
 export default function MainHeader() {
   return (
     <Header>
-        <Logo src={logo} />
+        <Logo src={logo} alt="Tin Can logo" />
     </Header>
   )
 }
@@ -12,21 +12,26 @@ export default function MainHeader() {
 
 const Header = styled('header')(props =>({
     width: '100%',
-    height: '100px',
     display: 'flex',
     alignItems: 'center',
     justifyContent: 'center',
+    [props.theme.breakpoints.up('sm')]: {
+        // backgroundColor: 'yellow'
+    },
+    [props.theme.breakpoints.up('md')]: {
+        // backgroundColor: 'lightblue'
+    },
 }))
 const Logo = styled('img')(props => ({
     [props.theme.breakpoints.up('xs')]: {
-        marginTop: '20px',
         width: '80vw',
+        marginTop: '20px',
     },
     [props.theme.breakpoints.up('sm')]: {
-        height: '200px',
+        width: '50vw',
+        marginTop: '20px'
     },
     [props.theme.breakpoints.up('md')]: {
-        marginTop: '50px',
-        height: '100px',
+        width: '50vw',
     },
 }))

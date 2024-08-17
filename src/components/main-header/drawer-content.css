@@ -1,0 +1,14 @@
+.drawerContent {
+    height: 200px;
+    padding: 20px;
+}
+
+.name {
+    margin: 20px 0;
+    font-size: 1.3em;
+    font-style: italic;
+}
+
+.name a {
+    color: var(--darkBlue)
+}
