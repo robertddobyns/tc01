@@ -14,9 +14,11 @@
 
   --primary: #edf6f9;
   --secondary: #ffddd2;
-  --error: #e29578;
+  --warning: #e29578;
+  --error: #660000;
   --success: #83c5be;
   --darkBlue: #006d77;
+  --violet: #594157;
 }
 body {
   height: 100vh;

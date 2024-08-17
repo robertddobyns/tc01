@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 781 195" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g transform="matrix(1,0,0,1,-11.7928,-279.404)">
+        <g id="Logo" transform="matrix(0.976809,0,0,0.976809,-12.8923,91.8589)">
+            <g id="MOBILE-BAR" serif:id="MOBILE BAR" transform="matrix(1,0,0,1,4.47707,136.197)">
+                <g transform="matrix(1.20945,0,0,1.58774,108.577,-90.3696)">
+                    <text x="291.885px" y="217.739px" style="font-family:'CenturyGothic', 'Century Gothic', sans-serif;font-size:21px;">B<tspan x="313.603px 338.798px " y="217.739px 217.739px ">AR</tspan></text>
+                </g>
+                <g transform="matrix(1.16973,0,0,1.53559,0.561631,-79.1319)">
+                    <text x="246.476px" y="217.437px" style="font-family:'CenturyGothic', 'Century Gothic', sans-serif;font-size:21px;">M<tspan x="275.434px 303.346px 325.064px 339.472px 358.832px " y="217.437px 217.437px 217.437px 217.437px 217.437px ">OBILE</tspan></text>
+                </g>
+            </g>
+            <g id="CO." transform="matrix(1.31368,0,0,1.31368,577.533,-97.1617)">
+                <g transform="matrix(1.42,0,0,1.2,-48.5498,8.35034)">
+                    <text x="107.348px" y="254.445px" style="font-family:'Cambria', serif;font-size:33px;">C<tspan x="135.81px " y="254.445px ">O</tspan></text>
+                </g>
+                <g transform="matrix(1.42,0,0,1.2,-15.4483,7.72961)">
+                    <text x="138.058px" y="254.212px" style="font-family:'Cambria', serif;font-size:33px;">.</text>
+                </g>
+            </g>
+            <g id="TIN-CAN" serif:id="TIN CAN" transform="matrix(1.20163,0,0,1.20163,111.927,-69.9604)">
+                <g transform="matrix(1.42,0,0,1.2,204.89,15.9459)">
+                    <text x="56.906px" y="253.534px" style="font-family:'Cambria', serif;font-size:48px;">C<tspan x="99.65px 145.3px " y="253.534px 253.534px ">AN</tspan></text>
+                </g>
+                <g transform="matrix(1.46667,0,0,1.23944,-11.6019,5.80112)">
+                    <text x="68.308px" y="253.874px" style="font-family:'Cambria', serif;font-size:48px;">T<tspan x="110.921px 140.643px " y="253.874px 253.874px ">IN</tspan></text>
+                </g>
+            </g>
+            <g transform="matrix(1.80971,0,0,1.52933,-131.12,-73.344)">
+                <g id="THE">
+                    <text x="85.354px" y="254.144px" style="font-family:'Cambria', serif;font-size:33px;">T<tspan x="114.816px 147.371px " y="254.144px 254.144px ">HE</tspan></text>
+                </g>
+            </g>
+            <g id="EST.-2023" serif:id="EST. 2023" transform="matrix(1.28923,0,0,1.28923,-104.566,-89.7737)">
+                <g transform="matrix(0.914093,0,0,1.2,68.2481,-23.7979)">
+                    <text x="285.982px" y="217.437px" style="font-family:'CenturyGothic', 'Century Gothic', sans-serif;font-size:21px;">E<tspan x="307.741px 328.7px 348.141px " y="217.437px 217.437px 217.437px ">ST.</tspan></text>
+                </g>
+                <g transform="matrix(0.914093,0,0,1.2,150.551,-23.8102)">
+                    <text x="278.825px" y="217.437px" style="font-family:'CenturyGothic', 'Century Gothic', sans-serif;font-size:21px;">2<tspan x="300.963px 323.102px 345.24px " y="217.437px 217.437px 217.437px ">023</tspan></text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

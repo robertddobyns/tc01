@@ -26,7 +26,7 @@ const Logo = styled('img')(props => ({
         height: '300px',
     },
     [props.theme.breakpoints.up('md')]: {
-        marginTop: '20px',
+        marginTop: '50px',
         height: '400px',
     },
 }))
