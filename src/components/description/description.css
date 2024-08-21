@@ -1,3 +1,6 @@
-.subText {
+.subText-blue {
     color: var(--violet)
+}
+.subText-white {
+    color: black;
 }

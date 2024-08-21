@@ -1,13 +1,18 @@
+import { useContext } from "react";
 import { styled } from "@mui/material";
 import line from "../../assets/HL.svg";
 import './description.css'
+import { ColorContext } from "../../App";
 
 export default function Description() {
+
+  const[colorTheme, setColorTheme] = useContext(ColorContext);
+
   return (
     <Section>
       <DividingLine src={line} alt="horizontal line" />
       <Title>The Midwest&rsquo;s Premier Mobile Bar</Title>
-      <div className={'subText'}>Full Service Bartending For Any Occassion</div>
+      <div className={colorTheme === 'blue' ? 'subText-blue' : 'subText-white'}>Full Service Bartending For Any Occassion</div>
       <DividingLine src={line} alt="horizontal line" />
     </Section>
   );

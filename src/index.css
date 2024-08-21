@@ -4,8 +4,6 @@
   font-weight: 400;
 
   color-scheme: light dark;
-  color: var(--darkBlue);
-  background: linear-gradient(180deg, rgba(231,231,231,1) 60%, rgba(54,100,110,1) 150%);
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;

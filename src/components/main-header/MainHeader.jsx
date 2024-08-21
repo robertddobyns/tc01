@@ -1,9 +1,16 @@
+import { useContext } from 'react'
 import { styled } from '@mui/material'
 import logo from '../../assets/TextLogo.svg'
 import DesktopContact from './DesktopContact'
+import { ColorContext } from '../../App'
+
 import './main-header.css'
 
+
 export default function MainHeader() {
+
+const [colorTheme, setColorTheme] = useContext(ColorContext);
+
   return (
     <header className='header'>
         <Logo src={logo} alt="Tin Can logo" />

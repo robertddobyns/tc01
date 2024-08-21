@@ -1,11 +1,17 @@
+import { useContext } from 'react';
 import { styled } from '@mui/material'
 import './package.css';
 
+import { ColorContext } from '../../../App';
+
 export default function Package() {
+
+  const [colorTheme, setColorTheme] = useContext(ColorContext);
+
   return (
     <PackageDiv>
         <h1>Packages</h1>
-        <h2>Base Package</h2>
+        <h2 className={colorTheme === 'blue' ? 'package-title-blue' : 'package-title-white'}>Base Package</h2>
         <h3>Starting at $400</h3>
         <h4>Packages Include:</h4>
         <ul>

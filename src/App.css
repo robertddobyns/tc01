@@ -1,4 +1,13 @@
-.main {
+.main-blue {
   position: relative;
   min-height: 100vh;
+  color: var(--darkBlue);
+  background: linear-gradient(180deg, rgba(231,231,231,1) 60%, rgba(54,100,110,1) 150%);
+}
+
+.main-white {
+  position: relative;
+  min-height: 100vh;
+  color: black;
+  background: white;
 }
