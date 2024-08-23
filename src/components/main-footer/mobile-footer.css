@@ -4,8 +4,11 @@
 }
 
 .buttonBackground-blue {
-    background-color: var(--darkBluke);
+    background-color: var(--darkBlue);
 }
 .buttonBackground-white {
     background-color: black;
+}
+.buttonBackground-dark {
+    background-color: white;
 }

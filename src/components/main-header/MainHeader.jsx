@@ -11,8 +11,19 @@ export default function MainHeader() {
 
 const [colorTheme, setColorTheme] = useContext(ColorContext);
 
+const handleTheme = () => {
+    switch(colorTheme) {
+      case 'blue':
+        return 'header-blue';
+      case 'white':
+        return  'header-white';
+      case 'dark':
+        return 'header-dark'
+    }
+  }
+
   return (
-    <header className='header'>
+    <header className={handleTheme()}>
         <Logo src={logo} alt="Tin Can logo" />
         <DesktopContact />
     </header>

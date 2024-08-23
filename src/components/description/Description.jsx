@@ -8,11 +8,22 @@ export default function Description() {
 
   const[colorTheme, setColorTheme] = useContext(ColorContext);
 
+  const handleTheme = () => {
+    switch(colorTheme) {
+      case 'blue':
+        return 'subText-blue';
+      case 'white':
+        return  'subText-white';
+      case 'dark':
+        return 'subText-dark'
+    }
+  }
+
   return (
     <Section>
       <DividingLine src={line} alt="horizontal line" />
       <Title>The Midwest&rsquo;s Premier Mobile Bar</Title>
-      <div className={colorTheme === 'blue' ? 'subText-blue' : 'subText-white'}>Full Service Bartending For Any Occassion</div>
+      <div className={handleTheme()}>Full Service Bartending For Any Occassion</div>
       <DividingLine src={line} alt="horizontal line" />
     </Section>
   );

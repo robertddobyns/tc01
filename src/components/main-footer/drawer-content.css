@@ -1,6 +1,17 @@
-.drawerContent {
+.drawerContent-blue {
     height: 200px;
     padding: 20px;
+}
+.drawerContent-white {
+    height: 200px;
+    padding: 20px;
+    background-color: white;
+}
+.drawerContent-dark {
+    height: 200px;
+    padding: 20px;
+    background-color: black;
+    color: white;
 }
 
 .name {
@@ -14,6 +25,9 @@
 }
 .name .links-white {
     color: black;
+}
+.name .links-dark {
+    color: white;
 }
 
 

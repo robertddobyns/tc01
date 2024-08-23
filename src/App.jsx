@@ -7,9 +7,6 @@ import MobileFooter from "./components/main-footer/MobileFooter";
 import PackageContainer from "./components/main-body/package-container/PackageContainer";
 import {
   FormControl,
-  FormControlLabel,
-  Radio,
-  RadioGroup,
   ToggleButton,
   ToggleButtonGroup,
 } from "@mui/material";
@@ -24,9 +21,20 @@ function App() {
     setColorTheme(event.target.value)
   }
 
+  const handleTheme = () => {
+    switch(colorTheme) {
+      case 'blue':
+        return 'main-blue';
+      case 'white':
+        return  'main-white';
+      case 'dark': 
+      return 'main-dark';
+    }
+  }
+
   return (
     <ColorContext.Provider value={[colorTheme, setColorTheme]}>
-      <main className={colorTheme === "blue" ? "main-blue" : "main-white"}>
+      <main className={handleTheme()}>
         <FormControl sx={{position: 'absolute', top: 0, left: 0, backgroundColor: 'rgb(0,255,0)'}}>
           <ToggleButtonGroup
             size='small'

@@ -11,3 +11,10 @@
   color: black;
   background: white;
 }
+
+.main-dark {
+  position: relative;
+  min-height: 100vh;
+  color: white;
+  background: black;
+}

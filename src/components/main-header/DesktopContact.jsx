@@ -7,8 +7,19 @@ export default function DesktopContact() {
 
   const [colorTheme, setColorTheme] = useContext(ColorContext);
 
+  const handleTheme = () => {
+    switch(colorTheme) {
+      case 'blue':
+        return 'contact-blue';
+      case 'white':
+        return  'contact-white';
+      case 'dark':
+        return 'contact-dark'
+    }
+  }
+
   return (
-    <DivStyled className={colorTheme === 'blue' ? 'contact-blue' : 'contact-white'}>
+    <DivStyled className={handleTheme()}>
        <span>Sabrina Hughes: <a href="tel:402-238-8150">(402)238-8150</a></span>
        <span>Nichoel Stuhr: <a href="tel:402-312-0526">(402)312-0526</a></span>
        <span>Email: <a href="mailto:cheers@thetincania.com">Cheers@TheTinCanIA.com</a></span>
