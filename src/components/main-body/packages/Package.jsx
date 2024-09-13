@@ -10,10 +10,9 @@ export default function Package() {
 
   return (
     <PackageDiv>
-        <h1>Packages</h1>
-        <h2 className={colorTheme === 'blue' ? 'package-title-blue' : 'package-title-white'}>Base Package</h2>
+        <h2 className={colorTheme === 'blue' ? 'package-title-blue' : 'package-title-white'}>What We Offer!</h2>
         <h3>Starting at $400</h3>
-        <h4>Packages Include:</h4>
+        <h4>Includes:</h4>
         <ul>
             <li>Supply Consultation prior to event</li>
             <li>Strictly Pour Service</li>
@@ -24,8 +23,8 @@ export default function Package() {
             <li>Fully Insured</li>
             <li>Up to 100 Guests!</li>
         </ul>
-        <h2>Bonus Package</h2>
-        <h3>For only $250</h3>
+        <br/>
+        <h2>Also Includes!</h2>
         <ul>
             <li>Stir Sticks</li>
             <li>Cups (16oz / 12oz)</li>
